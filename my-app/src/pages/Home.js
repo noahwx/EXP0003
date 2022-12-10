@@ -1,4 +1,4 @@
-import '../index.css'
+import '../styles/Home.css'
 
 const Home = () => {
     return (

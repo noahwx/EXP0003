@@ -1,0 +1,71 @@
+.wrapper {
+    margin-left: 1vw;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: [col1-start] 27vw  [col2-start] 32vw  [col3-start] 37vw [col3-end];
+    grid-template-rows: [row1-start] 50vh [row2-start] 25vh [row2-end];
+}
+  
+.box {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    padding: 1em;
+  
+    font-size: clamp(1rem, 2vw, 1rem);
+    text-align: center;
+  
+    transition: transform 500ms ease;
+}
+  
+.a {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start;
+  
+    background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1599&q=80');
+    background-position: center;
+    background-size: 100%;
+  
+    color: #F3F3F3;
+    text-decoration: none;
+}
+  
+.b {
+    grid-column: col3-start;
+    grid-row: row1-start / row2-end;
+  
+    background-image: url('https://images.unsplash.com/photo-1600688640154-9619e002df30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60');
+    background-position: center;
+    background-size: 100%;
+  
+    color: #F3F3F3;
+    text-decoration: none;
+}
+  
+.c {
+    grid-column: col1-start;
+    grid-row: row2-start;
+  
+    background-image: url('https://images.unsplash.com/photo-1625242662167-9ba73d268139?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-position: center;
+    background-size: 100%;
+  
+    color: #F3F3F3;
+    text-decoration: none;
+}
+  
+.d {
+    grid-column: col2-start;
+    grid-row: row2-start;
+  
+    background-image: url('https://images.unsplash.com/photo-1596649299486-4cdea56fd59d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60');
+    background-position: center;
+    background-size: 100%;
+  
+    color: #F3F3F3;
+    text-decoration: none;
+}
+  
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px #1B1B1B;
+}
