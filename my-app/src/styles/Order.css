@@ -1,0 +1,32 @@
+.item {
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+
+    height: 25vh;
+    width: 25vw;
+
+    text-align: center;
+
+    background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1599&q=80');
+    background-position: center;
+    background-size: 100%;
+
+    /* background-color: #1B1B1B; */
+}
+
+.menu-title {
+    position: relative;
+    top: 5vh;
+    z-index: 99;
+
+    margin-left: 2vw;
+
+    font-size: clamp(2rem, 4vw, 2rem);
+    letter-spacing: 0.5em;
+
+    color: #F3F3F3;
+    text-shadow: 2px 2px #1B1B1B;
+
+    font-family: cheap-pine, sans-serif;
+}

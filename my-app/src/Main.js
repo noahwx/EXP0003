@@ -4,6 +4,10 @@ import Home from './pages/Home';
 import Order from './pages/Order';
 import Menu from './pages/Menu';
 import ContactUs from './pages/ContactUs';
+import Combos from './pages/Combos';
+import Sides from './pages/Sides';
+import Drinks from './pages/Drinks';
+import Desserts from './pages/Desserts';
 
 const Main = () => {
   return (
@@ -12,6 +16,11 @@ const Main = () => {
       <Route exact path='/pages/Order' element={<Order />} />
       <Route exact path='/pages/Menu' element={<Menu />} />
       <Route exact path='/pages/ContactUs' element={<ContactUs />} />
+      <Route exact path='/pages/Order' element={<Order />} />
+      <Route exact path='/pages/Combos' element={<Combos />} />
+      <Route exact path='/pages/Sides' element={<Sides />} />
+      <Route exact path='/pages/Drinks' element={<Drinks />} />
+      <Route exact path='/pages/Desserts' element={<Desserts />} />
     </Routes>
   );
 }

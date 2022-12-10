@@ -1,10 +1,17 @@
 import '../index.css'
+import OrderMenu from '../OrderMenu';
+import '../styles/Order.css'
 
 const Order = () => {
     return ( 
-        <div>
-            <h1>Order</h1>
-        </div>
+        <>
+            <OrderMenu />
+            <div className='container'>
+                <div className='item'>
+                    <span className='menu-title'>Double Stack<br />Attack</span>
+                </div>
+            </div>
+        </>
     );
 }
  

@@ -11,6 +11,33 @@
   color: #F49E4C;
 }
 
+.page-title {
+  position: absolute;
+  z-index: 99;
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-left: 2vw;
+
+  font-size: clamp(3rem, 6vw, 3rem);
+
+  color: #1B1B1B;
+}
+
+.container {
+  position: absolute;
+  top:30vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  height: auto;
+  width: 80vw;
+
+  background-color: #1B1B1B;
+}
+
 /* Navbar Styles */
 
 .navbar {
