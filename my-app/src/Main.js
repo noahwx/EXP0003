@@ -8,7 +8,7 @@ import ContactUs from './pages/ContactUs';
 const Main = () => {
   return (
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/pages/Home' element={<Home />}/>
+      <Route exact path='/' element={<Home />}/>
       <Route exact path='/pages/Order' element={<Order />} />
       <Route exact path='/pages/Menu' element={<Menu />} />
       <Route exact path='/pages/ContactUs' element={<ContactUs />} />
