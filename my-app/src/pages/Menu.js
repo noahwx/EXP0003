@@ -7,11 +7,24 @@ const Order = () => {
         <>
             <OrderMenu />
             <div className='container'>
-               <a href='/pages/Menu' className='item'>
+               <a href='/pages/Menu' className='item img0'>
                 <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
                </a>
-               <a href='/pages/Menu' className='item'></a>
-               <a href='/pages/Menu' className='item'></a>
+               <a href='/pages/Menu' className='item img0'>
+                <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
+               </a>
+               <a href='/pages/Menu' className='item img0'>
+                <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
+               </a>
+               <a href='/pages/Menu' className='item img0'>
+                <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
+               </a>
+               <a href='/pages/Menu' className='item img0'>
+                <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
+               </a>
+               <a href='/pages/Menu' className='item img0'>
+                <span className='menu-title'>Double Stack<br />Attack<br /><span className='menu-price'>$0.00</span></span>
+               </a>
             </div>
         </>
     );
