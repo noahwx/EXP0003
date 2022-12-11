@@ -1,0 +1,76 @@
+.CU-title {
+    text-align: center;
+    font-size: clamp(3rem, 6vw, 3rem);
+}
+
+.CU-form {
+    display: block;
+    align-items: center;
+    width: 5vw;
+}
+
+.CU-label {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 2rem);
+    position: relative;
+    margin-left: 30.5vw;
+    margin-top: 1vh;
+}
+
+.CU-input {
+    margin-right: 50vw;
+    height: 3vh;
+    width: 20vw;
+    position: relative;
+    left: 30vw;
+    padding: 0.2em;
+
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+
+    border-radius: 5px;
+    border: 2px solid #1B1B1B;
+
+    background-color: #F3F3F3;
+}
+
+.CU-submit {
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 30vw;
+    height: 9vh;
+    width: 9vw;
+    padding: 0.2em;
+    border-radius: 25px;
+    border: 2px solid #1B1B1B;
+
+    font-size: clamp(3rem, 6vw, 3rem);
+    font-family: cheap-pine-sans, sans-serif;
+
+    background-color: #F49E4C;
+
+    transition: transform 500ms ease, color 500ms ease, background-color 500ms ease;
+}
+
+.CU-textarea {
+    margin-right: 50vw;
+    height: 10vh;
+    width: 20vw;
+    position: relative;
+    left: 30vw;
+    padding: 0.2em;
+
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+
+    border-radius: 5px;
+    border: 2px solid #1B1B1B;
+
+    background-color: #F3F3F3;
+
+    resize: none;
+}
+
+.CU-submit:hover {
+    background-color: #DB324D;
+    color: #F3F3F3;
+    transform: scale(1.05);
+}
