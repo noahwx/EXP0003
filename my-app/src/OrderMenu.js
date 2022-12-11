@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import './styles/OrderMenu.css'
+import './styles/OMenu.css'
 
 const OrderMenu = () => {
     return (
         <div className="ordermenu">
             <div className="menuitems">
-                <NavLink to='/pages/Order' className='menuitem'>Burgers</NavLink>
+                <NavLink to='/pages/Menu' className='menuitem'>Burgers</NavLink>
                 <NavLink to='/pages/Combos' className='menuitem'>Combos</NavLink>
                 <NavLink to='/pages/Sides' className='menuitem'>Sides</NavLink>
                 <NavLink to='/pages/Drinks' className='menuitem'>Drinks</NavLink>

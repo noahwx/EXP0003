@@ -1,7 +1,8 @@
 .item {
-    position: absolute;
-    left: 2vw;
+    position: relative;
     top: 2vh;
+    float: left;
+    margin-left: 1.5vw;
 
     height: 25vh;
     width: 25vw;
@@ -12,7 +13,13 @@
     background-position: center;
     background-size: 100%;
 
+    border-radius: 15px;
+
     /* background-color: #1B1B1B; */
+
+    text-decoration: none;
+
+    transition: transform 500ms ease;
 }
 
 .menu-title {
@@ -29,4 +36,22 @@
     text-shadow: 2px 2px #1B1B1B;
 
     font-family: cheap-pine, sans-serif;
+}
+
+.menu-price {
+    position: relative;
+    top: 1vh;
+    z-index: 99;
+
+    font-size: clamp(2rem, 4vw, 2rem);
+    letter-spacing: 0.5em;
+
+    color: #F3F3F3;
+    text-shadow: 2px 2px #1B1B1B;
+
+    font-family: cheap-pine, sans-serif;
+}
+
+.item:hover {
+    transform: scale(1.05);
 }
